@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <!--<script src="js/magictouch.js"></script>-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Smart Device Camera Template for HTML, CSS, JS and WebRTC"
+    />
+    <meta name="keywords" content="HTML,CSS,JavaScript, WebRTC, Camera" />
+    <meta name="author" content="Kasper Kamperman" />
+    <title>Mobile First Camera Template</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="vid_container">
+        <video id="video" autoplay playsinline></video>
+        <div id="video_overlay"></div>
+      </div>
+      <div id="gui_controls">
+        <button
+          id="switchCameraButton"
+          name="switch Camera"
+          type="button"
+          aria-pressed="false"
+        ></button>
+        <button 
+        id="takePhotoButton" 
+        name="take Photo" 
+        type="button"
+        aria-pressed="false"
+        ></button>
+        <button
+          id="toggleFullScreenButton"
+          name="toggle FullScreen"
+          type="button"
+          aria-pressed="false"
+        ></button>
+       <!--  <div style="text-align:right;font-family: Verdana; font-size: 10px; color:white;">
+   <p>Click to select.</p>
+       <p>Click on handles to resize.</p>
+       <p> Double click to create new.</p
+
+    </div>>-->
+      </div>
+    </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+   <!--  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+-->
+    <script src="js/adapter.min.js"></script>
+    <script src="js/screenfull.min.js"></script>
+    <script src="js/howler.core.min.js"></script>
+    <script src="js/main.js"></script>
+    <object id="tuio" type="application/x-tuio">Plugin FAILED to load</object>
+  </body>
+</html>
+
+ <div id="container2">
+    <canvas id="canvas2" width="1150" height="750"> <!-- geeft breedte en hoogte aan canvas met vormen -->
+    This text is displayed if your browser does not support HTML5 Canvas.
+    </canvas>
+    </div>
+    
