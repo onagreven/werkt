@@ -338,7 +338,7 @@ var mySel = null;
 var mySelColor = '#CC0000';
 var mySelWidth = 2;
 var mySelBoxColor = 'darkred'; // New for selection boxes
-var mySelBoxSize = 6;
+var mySelBoxSize = 20;
 var ghostcanvas;
 var gctx; // fake canvas context
 var offsetx, offsety;
