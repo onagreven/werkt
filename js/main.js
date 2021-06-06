@@ -487,28 +487,29 @@ function init2() {
 
   
   // add a large green rectangle
-  addRect(0, 10, 1150, 5, 'rgba(0,0,0)');// grootte en  positie rechthoek + kleur van rechthoeken met doorzichtigheid
-  addRect(0, 10, 1150, 5, 'rgba(0,0,0)');
-  addRect(0, 10, 1150, 5, 'rgba(0,0,0)');
-  addRect(0, 10, 1150, 5, 'rgba(0,0,0)');
-  addRect(0, 10, 1150, 5, 'rgba(0,0,0)');
-  addRect(0, 10, 1150, 5, 'rgba(0,0,0)');
+  addRect(0, 10, 1150, 3, 'rgba(0,0,0)');// grootte en  positie rechthoek + kleur van rechthoeken met doorzichtigheid
+  addRect(0, 10, 1150, 3, 'rgba(0,0,0)');
+  addRect(0, 10, 1150, 3, 'rgba(0,0,0)');
+  addRect(0, 10, 1150, 3, 'rgba(0,0,0)');
+  addRect(0, 10, 1150, 3, 'rgba(0,0,0)');
+  addRect(0, 10, 1150, 3, 'rgba(0,0,0)');
   // add a green-blue rectangle
-  addRect(10, 0, 5, 759, 'rgba(0,0,0,0.7)');  
-   addRect(10, 0, 5, 759, 'rgba(0,0,0,0.7)');  
-    addRect(10, 0, 5, 759, 'rgba(0,0,0,0.7)');  
-     addRect(10, 0, 5, 759, 'rgba(0,0,0,0.7)');  
-      addRect(10, 0, 5, 759, 'rgba(0,0,0,0.7)');  
-       addRect(10, 0, 5, 759, 'rgba(0,0,0,0.7)');  
+  addRect(10, 0, 3, 759, 'rgba(0,0,0,0.7)');  
+   addRect(10, 0, 3, 759, 'rgba(0,0,0,0.7)');  
+    addRect(10, 0, 3, 759, 'rgba(0,0,0,0.7)');  
+     addRect(10, 0, 3, 759, 'rgba(0,0,0,0.7)');  
+      addRect(10, 0, 3, 759, 'rgba(0,0,0,0.7)');  
+       addRect(10, 0, 3, 759, 'rgba(0,0,0,0.7)');  
   
   // add a smaller purple rectangle
-  addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
-    addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
-      addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
-        addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
-          addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
-            addRect(20, 350, 60, 65, 'rgba(150,150,250,0.7)');
-
+  addRect(20, 350, 60, 65, 'rgba(0,0,0,0.1)');
+  addRect(20, 350, 60, 65, 'rgba(0,0,0,0.1)');
+  addRect(20, 350, 60, 65, 'rgba(0,0,0,0.1)');
+  addRect(20, 350, 60, 65, 'rgba(0,0,0,0.1)');
+  addRect(20, 350, 60, 65, 'rgba(0,0,0,0.1)');
+  addRect(20, 350, 60, 65, 'rgba(0,0,0,0.1)');
+  addRect(20, 350, 60, 65, 'rgba(0,0,0,0.1)');
+  
 
   //addRect(45, 280, 60, 65, 'rgba(255,50,150,0.7)'); // extra rect
 
