@@ -24,7 +24,7 @@ body {
 
 #gui_controls {
   position: fixed;
-  background-color: #219c35; /*rgba(255, 0, 0, 0.5); DIT IS DE KLEUR VAN BALK ZIJKANT*/
+  background-color: #000000; /*rgba(255, 0, 0, 0.5); DIT IS DE KLEUR VAN BALK ZIJKANT*/
   z-index: 2;
   bottom: 0;
 }
